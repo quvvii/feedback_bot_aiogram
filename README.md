@@ -31,4 +31,4 @@ Windows: ```python bot.py```
 
 ## Support
 
-For support, you can write me in Telegram: [@quvi_feedback_bot](t.me/quvi_feedback_bot)
+For support, you can write me in Telegram: [@quvi_feedback_bot](https://t.me/quvi_feedback_bot)
