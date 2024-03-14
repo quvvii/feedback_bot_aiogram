@@ -40,7 +40,7 @@ async def send_question_to_admin(message: types.Message, state: FSMContext):
     try:
         if message.text != '❌Отмена':
             await bot.send_message(chat_id=config.admin_id,
-                                   text=f'<b>Новый вопрос [<code>{date.get_date()}</code>]:</b>\n{message.text}\n\n#id{message.from_user.id}')
+                                   text=f'<b>Новый вопрос [<code>{date.get_date()}</code>]:</b>\n{message.text}\n\n#id{message.from_user.id}') # idea with id by @Groosha
             
             await message.answer('<b>Я отправил твой вопрос!</b> Жди ответа.',
                                  reply_markup=kb.clear_kb())
